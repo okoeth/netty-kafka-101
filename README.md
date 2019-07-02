@@ -49,3 +49,11 @@ Netty is a framework, so just build and run the Maven project.
 mvn compile
 mvn exec:java -Dexec.mainClass="com.netty.server.http.NettyWebServerMain"
 ```
+
+Now run:
+
+```
+curl http://localhost:8080?name=EnsoT17s
+```
+
+Done.
